@@ -1,10 +1,13 @@
 # ReactContactListAPI
 
+
 ## Initial Setup
 
 SQL Server Database is used for this solution. The connection string setup points to a hosted database onna remote server. You can use that database without requiring to setup SQL Server on your local machine. Or you can update connection string to point to a local database then run "update-database" to execute EF Core migration.
 
 In other words, you can just run this API and start consuming it, with no code/config changes.
+
+
 
 ## Controller
 
@@ -23,7 +26,9 @@ Task<ActionResult<GlobalResponse<bool>>> DeleteContact(int id)
 Task<ActionResult<Contact>> GetContact(int id)
  
 Task<ActionResult<List<Contact>>> GetContacts()
+  
 
+  
 ## Response schema 
 
 The response schema looks like below:
