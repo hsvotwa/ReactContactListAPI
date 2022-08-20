@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace YellowPagesAPI.Migrations
+namespace ReactContactListApi.Migrations
 {
     public partial class initial : Migration
     {

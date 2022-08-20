@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using YellowPagesAPI.EntityData;
+using ReactContactListApi.EntityData;
 
 #nullable disable
 
-namespace YellowPagesAPI.Migrations
+namespace ReactContactListApi.Migrations
 {
     [DbContext(typeof(AppDBContext))]
     [Migration("20220817094051_initial")]

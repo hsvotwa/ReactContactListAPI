@@ -1,7 +1,7 @@
-﻿using YellowPagesAPI.Models;
-using YellowPagesAPI.Utilities;
+﻿using ReactContactListApi.Models;
+using ReactContactListApi.Utilities;
 
-namespace YellowPagesAPI.Services.Interface
+namespace ReactContactListApi.Services.Interface
 {
     public interface IContactService
     {

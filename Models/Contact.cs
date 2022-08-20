@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace YellowPagesAPI.Models
+namespace ReactContactListApi.Models
 {
     public class Contact
     {

@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using YellowPagesAPI.EntityData;
-using YellowPagesAPI.Models;
-using YellowPagesAPI.Services.Interface;
-using YellowPagesAPI.Utilities;
+using ReactContactListApi.EntityData;
+using ReactContactListApi.Models;
+using ReactContactListApi.Services.Interface;
+using ReactContactListApi.Utilities;
 
-namespace YellowPagesAPI.Services.Implementation
+namespace ReactContactListApi.Services.Implementation
 {
     public class ContactService : IContactService
     {

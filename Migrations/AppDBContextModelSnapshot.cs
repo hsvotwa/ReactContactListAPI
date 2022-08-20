@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using YellowPagesAPI.EntityData;
+using ReactContactListApi.EntityData;
 
 #nullable disable
 
-namespace YellowPagesAPI.Migrations
+namespace ReactContactListApi.Migrations
 {
     [DbContext(typeof(AppDBContext))]
     partial class AppDBContextModelSnapshot : ModelSnapshot
