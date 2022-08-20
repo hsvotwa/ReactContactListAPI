@@ -11,8 +11,8 @@ using ReactContactListApi.EntityData;
 namespace ReactContactListApi.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20220817094051_initial")]
-    partial class initial
+    [Migration("20220820085202_CompulsoryIndicators")]
+    partial class CompulsoryIndicators
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,7 +23,7 @@ namespace ReactContactListApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("YellowPagesAPI.Models.Contact", b =>
+            modelBuilder.Entity("ReactContactListApi.Models.Contact", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()

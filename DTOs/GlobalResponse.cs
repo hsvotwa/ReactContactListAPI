@@ -1,4 +1,4 @@
-﻿namespace YellowPagesAPI.Utilities
+﻿namespace ReactContactListApi.Utilities
 {
     public class GlobalResponse<T> where T : struct
     {

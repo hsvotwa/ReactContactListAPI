@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace YellowPagesAPI.Models
+namespace ReactContactListApi.Models
 {
     public class Contact
     {
+        [Key]
         public int ID { get; set; }
 
         [Required]

@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using YellowPagesAPI.Models;
-using YellowPagesAPI.Services.Interface;
-using YellowPagesAPI.Utilities;
+using ReactContactListApi.Models;
+using ReactContactListApi.Services.Interface;
+using ReactContactListApi.Utilities;
 
-namespace YellowPagesAPI.Controllers
+namespace ReactContactListApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using YellowPagesAPI.Models;
+using ReactContactListApi.Models;
 
-namespace YellowPagesAPI.EntityData
+namespace ReactContactListApi.EntityData
 {
     public class AppDBContext : DbContext
     {

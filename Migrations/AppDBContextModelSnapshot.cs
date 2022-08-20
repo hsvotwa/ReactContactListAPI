@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using YellowPagesAPI.EntityData;
+using ReactContactListApi.EntityData;
 
 #nullable disable
 
-namespace YellowPagesAPI.Migrations
+namespace ReactContactListApi.Migrations
 {
     [DbContext(typeof(AppDBContext))]
     partial class AppDBContextModelSnapshot : ModelSnapshot
@@ -21,7 +21,7 @@ namespace YellowPagesAPI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("YellowPagesAPI.Models.Contact", b =>
+            modelBuilder.Entity("ReactContactListApi.Models.Contact", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()

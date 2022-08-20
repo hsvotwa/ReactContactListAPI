@@ -1,7 +1,7 @@
-using YellowPagesAPI.EntityData;
+using ReactContactListApi.EntityData;
 using Microsoft.EntityFrameworkCore;
-using YellowPagesAPI.Services.Interface;
-using YellowPagesAPI.Services.Implementation;
+using ReactContactListApi.Services.Interface;
+using ReactContactListApi.Services.Implementation;
 using Microsoft.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
