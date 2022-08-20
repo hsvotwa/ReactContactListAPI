@@ -13,10 +13,15 @@ This is a standard WebAPI written in C# with a Contact Controller that exposes t
 ![image](https://user-images.githubusercontent.com/71719282/185737545-78e6f261-12ef-4dbd-a759-e38a03448e77.png)
 
 The actions take these parameters and return as below:
+
 Task<ActionResult<GlobalResponse<int>>> SaveContact(Contact record)
+
 Task<ActionResult<GlobalResponse<bool>>> UpdateContact(Contact record)
+  
 Task<ActionResult<GlobalResponse<bool>>> DeleteContact(int id)
+  
 Task<ActionResult<Contact>> GetContact(int id)
+ 
 Task<ActionResult<List<Contact>>> GetContacts()
 
 ## Response schema 
