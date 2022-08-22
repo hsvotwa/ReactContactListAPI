@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "YellowPagesAPI": {
+    "ReactContactListApi": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

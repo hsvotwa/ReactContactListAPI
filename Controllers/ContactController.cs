@@ -22,7 +22,7 @@ namespace ReactContactListApi.Controllers
             return ModelState.IsValid switch
             {
                 true => await _contactService.SaveContact(record),
-                _ => BadRequest(ModelState)
+                _ => new  GlobalResponse<int> { Feedback = 0, Description = "All fields are required"}
             };
         }
 
@@ -32,7 +32,7 @@ namespace ReactContactListApi.Controllers
             return ModelState.IsValid switch
             {
                 true => await _contactService.UpdateContact(record),
-                _ => BadRequest(ModelState)
+                _ => new GlobalResponse<bool> { Feedback = false, Description = "All fields are required" }
             };
         }
 
